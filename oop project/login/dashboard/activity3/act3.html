@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Activity 3</title>
+  <link rel="stylesheet" href="act3css.css">
+  <link rel="icon" href="../../images/code-slash.svg">
+  <script src="act3js.js" defer></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+
+  <div class="sidebar">
+  
+    <ul>
+      <li>
+        <a href="../../Landing-Page/index.html"class="logo">
+          <span class="icon">
+            <img src="../../images/dev.png" alt="User Picture" class="profile-pic">
+          </span>
+          <span class="text">m.dev</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="../dashboard.html"class="logo">
+          <span class="icon">
+            <img id="userImage" src="" alt="User Picture" class="profile-pic">
+          </span>
+          <span class="text"><span id="displayName"></span>
+        </span>
+        </a>
+      </li>
+
+      <li>
+        <a href="../Home/index.html">
+          <span class="icon"><ion-icon name="home"></ion-icon></span>
+          <span class="text">Home</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="../Reflection/index.html">
+          <span class="icon"><ion-icon name="document-text"></ion-icon></span>
+          <span class="text">Reflection</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="../activity1/act1.html">
+          <span class="icon"><ion-icon name="code-slash"></ion-icon></span>
+          <span class="text">Activity 1</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="../activity2/act2.html">
+          <span class="icon"><ion-icon name="code-slash"></ion-icon></span>
+          <span class="text">Activity 2</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="../activity3/act3.html">
+          <span class="icon"><ion-icon name="code-slash"></ion-icon></span>
+          <span class="text">Activity 3</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="../activity4/oop_act_ 4.html">
+          <span class="icon"><ion-icon name="code-slash"></ion-icon></span>
+          <span class="text">Activity 4</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="../activity5/index.html">
+          <span class="icon"><ion-icon name="code-slash"></ion-icon></span>
+          <span class="text">Activity 5</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="../../login.html">
+          <span class="icon"><ion-icon name="log-out"></ion-icon></span>
+          <span class="text">Log Out</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="container">
+    <h1>Bitwise Operators</h1>
+    
+    <ul class="explanation">
+      <li><span class="op">& (AND)</span> Returns a 1 in each bit position where both operands have a 1, otherwise 0.</li>
+      <li><span class="op">| (OR)</span> Returns a 1 in each bit position where either operand has a 1, otherwise 0.</li>
+      <li><span class="op">^ (XOR)</span> Returns a 1 in each bit position where the operands are different, otherwise 0.</li>
+      <li><span class="op">~ (NOT)</span> Inverts all bits of a single operand (1 becomes 0, and 0 becomes 1).</li>
+    </ul>
+
+    <button onclick="showExample()">Show Example</button>
+    <div id="example-output"></div>
+  </div>
+
+
+  <script src="../sidebar/sidebar.js"></script>
+
+</body>
+</html>

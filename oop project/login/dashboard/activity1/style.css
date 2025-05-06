@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    min-height: 100vh;
+    background: url(../../images/starfall-night-sky-mountains-aesthetic-gif-preview-desktop-wallpaper.gif) center/cover no-repeat;
+  
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0%;
+    height: 100%;
+    width: 75px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(25px);
+    overflow-x: hidden;
+    padding-top: 10px;
+    transition: 0.6s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .sidebar:hover {
+    width: 250px;
+    transition: 0.6s ease;
+  }
+  
+  .sidebar ul {
+    position: relative;
+    height: 97vh;
+  }
+  
+  .sidebar ul li {
+    list-style: none;
+    margin: 5px 0;
+  }
+  
+  .sidebar ul li:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transition: 0.3s ease;
+  }
+  
+  .sidebar ul li a {
+    position: relative;
+    display: flex;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .sidebar ul li .logo {
+    margin-bottom: 50px;
+  }
+  
+  .sidebar ul li .logo .icon ion-icon {
+    font-size: 28px;
+  }
+  
+  .sidebar ul li .logo .text {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .sidebar ul li:last-child {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .sidebar ul li a .icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 75px;
+    height: 60px;
+  }
+  
+  .sidebar ul li a .icon ion-icon {
+    font-size: 24px;
+  }
+  
+  .sidebar ul li a .text {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    font-weight: 400;
+  }
+  
+  .main-content h1 {
+     color: rgb(0, 0, 0);
+      font-size: 28px;
+      top: 50px;
+      left: 300px;
+      text-transform: uppercase;  
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.8);
+      
+  } 
+  
+  .profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  
+
+  
+  
+  .main-content {
+    margin-left: 75px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transition: margin-left 0.6s ease;
+  }
+  
+  
+  
+  
+.container {
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.8);
+    width: 90%;
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+
+
+

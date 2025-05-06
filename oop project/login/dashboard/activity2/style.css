@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('../../images/starfall-night-sky-mountains-aesthetic-gif-preview-desktop-wallpaper.gif  ') no-repeat center center fixed; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+
+h1 {
+    color: white;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.8);
+}
+
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+.box {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+.box:hover {
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.3);
+}
+
+
+label, input::placeholder {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333; 
+    text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.5);
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+input {
+    width: 90%;
+    height: 40px; 
+    background: rgba(255, 255, 255, 0.3); 
+    border: 10px;
+    border-radius: 10px;
+    padding: 12px;
+    color: #1a1a1a;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 15px;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid white;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.8);
+}
+
+
+button {
+    background: #0A1744;
+    color: white;
+    padding: 14px 22px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    backdrop-filter: blur(10px);
+}
+
+button:hover {
+    background: #07102E; 
+    transform: scale(1.05);
+}
+
+
+.clear-button {
+    background: #1a237e; 
+}
+
+.clear-button:hover {
+    background: #07102E; 
+}
+
+
+#infoDisplay p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1a1a1a; 
+    text-shadow: 1px 1px 8px rgba(255, 255, 255, 0.6);
+}
+
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0%;
+    height: 100%;
+    width: 75px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(25px);
+    overflow-x: hidden;
+    padding-top: 10px;
+    transition: 0.6s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .sidebar:hover {
+    width: 250px;
+    transition: 0.6s ease;
+  }
+  
+  .sidebar ul {
+    position: relative;
+    height: 97vh;
+  }
+  
+  .sidebar ul li {
+    list-style: none;
+    margin: 5px 0;
+  }
+  
+  .sidebar ul li:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transition: 0.3s ease;
+  }
+  
+  .sidebar ul li a {
+    position: relative;
+    display: flex;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .sidebar ul li .logo {
+    margin-bottom: 50px;
+  }
+  
+  .sidebar ul li .logo .icon ion-icon {
+    font-size: 28px;
+  }
+  
+  .sidebar ul li .logo .text {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .sidebar ul li:last-child {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .sidebar ul li a .icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 75px;
+    height: 60px;
+  }
+  
+  .sidebar ul li a .icon ion-icon {
+    font-size: 24px;
+  }
+  
+  .sidebar ul li a .text {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    font-weight: 400;
+  }
+
+  .profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
